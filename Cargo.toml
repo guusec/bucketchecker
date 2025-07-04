@@ -1,0 +1,9 @@
+[package]
+name = "bucketchecker"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.1", features = ["derive"] }
+reqwest = { version = "0.11", features = ["blocking", "rustls-tls"] }
+rayon = "1.7"
